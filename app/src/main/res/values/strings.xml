@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DoorDashLite</string>
+    <string name="discover_fragment">Discover</string>
+    <string name="content_desc">Image content description</string>
+    <string name="error_string">We are currently facing error. Please try again later.</string>
+
+    <dimen name="margin_small">7dp</dimen>
+    <dimen name="margin_mid">10dp</dimen>
+    <dimen name="margin_large">15dp</dimen>
+
+    <dimen name="padding_small">7dp</dimen>
+    <dimen name="padding_mid">10dp</dimen>
+    <dimen name="padding_large">15dp</dimen>
+
+</resources>
