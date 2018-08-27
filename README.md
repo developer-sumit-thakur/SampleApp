@@ -1,2 +1,2 @@
 # SampleApp
-Sample app using MVVM, Retrofit, LiveData
+Sample app using Kotlin, MVVM, Retrofit, LiveData
