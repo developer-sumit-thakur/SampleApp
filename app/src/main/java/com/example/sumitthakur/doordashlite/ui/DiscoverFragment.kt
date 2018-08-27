@@ -75,12 +75,12 @@ class DiscoverFragment : Fragment() {
         fragmentListener = null
     }
 
-    private fun showError() {
+    fun showError() {
         Log.d(TAG, "Error in getting response")
         fragmentListener?.onError()
     }
 
-    private fun showUI(result: List<Restaurant>) {
+    fun showUI(result: List<Restaurant>) {
         Log.d(TAG, "Response : $result")
         fragmentListener?.onSuccess()
         takeIf { result.size > 0 }?.apply { adapter?.setRestaurants(result) }
